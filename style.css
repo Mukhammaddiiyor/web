@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+    flex-direction: column;
+}
+.box1 h1{
+  text-transform: uppercase;
+  font-size: 72px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(180deg, #fd004c,#fe9000,
+  #fff020,#3edf4b,#3363ff,#b102b7,#fd004c);
+  background-size: 600% 600%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: change 2s ease-in-out infinite;}
+@keyframes change{
+    0% {background-position: 0 0;}
+    50% {background-position: 0 100%;}
+    100% {background-position: 0 0;}}
+.box1 a{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(180deg, #fd004c,#fe9000,
+  #fff020,#3edf4b,#3363ff,#b102b7,#fd004c);
+  background-size: 600% 600%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: change 2s ease-in-out infinite;}
+@keyframes change{
+    0% {background-position: 0 0;}
+    50% {background-position: 0 100%;}
+    100% {background-position: 0 0;}}
+@media(max-width:767px){
+.box1 h1{
+    font-size: 60px;
+}
+}
+@media(max-width:660px){
+.box1 h1{
+    font-size: 40px;
+}
+}
+@media(max-width:500px){
+.box1 h1{
+    font-size: 30px;
+}
+}
